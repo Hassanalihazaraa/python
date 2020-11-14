@@ -12,7 +12,7 @@ period_names = [item.find(class_="period-name").get_text() for item in items]
 short_desc = [item.find(class_="short-desc").get_text() for item in items]
 temp = [item.find(class_="temp").get_text() for item in items]
 
-weather_list = pd.DataFrame(
+weather_forecast = pd.DataFrame(
     {
         'period': period_names,
         'short_description': short_desc,
