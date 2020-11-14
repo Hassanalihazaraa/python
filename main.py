@@ -20,6 +20,6 @@ weather_forecast = pd.DataFrame(
     }
 )
 # insert all data into csv file
-weather_list.to_csv('weather.csv')
+weather_forecast.to_csv('weather.csv')
 
-print(weather_list)
+print(weather_forecast)
