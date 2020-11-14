@@ -19,4 +19,7 @@ weather_list = pd.DataFrame(
         'temperature': temp,
     }
 )
+# insert all data into csv file
+weather_list.to_csv('weather.csv')
+
 print(weather_list)
